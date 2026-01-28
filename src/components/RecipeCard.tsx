@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import { Clock, Users, Heart } from "lucide-react";
-import { Database } from "../../types/supabase";
+import { Clock, Users } from "lucide-react";
+import type { Database } from "../types/supabase";
 
 type Recipe = Database['public']['Tables']['recipes']['Row'];
 
